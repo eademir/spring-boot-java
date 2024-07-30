@@ -1,7 +1,7 @@
 package com.example.demo.config;
 
 import com.example.demo.jwt.Token;
-import com.example.demo.repository.TokenRepository;
+import com.example.demo.jwt.TokenRepository;
 import com.example.demo.util.CookieUtils;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;

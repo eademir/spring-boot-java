@@ -1,6 +1,5 @@
 package com.example.demo.post;
 
-import com.example.demo.repository.PostRepository;
 import com.example.demo.util.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

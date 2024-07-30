@@ -1,7 +1,6 @@
 package com.example.demo.jwt;
 
 import com.example.demo.auth.UserAuth;
-import com.example.demo.repository.TokenRepository;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;

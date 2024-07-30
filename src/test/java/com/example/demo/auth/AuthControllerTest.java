@@ -1,7 +1,6 @@
 package com.example.demo.auth;
 
 import com.example.demo.jwt.JwtService;
-import com.example.demo.repository.UserAuthRepository;
 import com.example.demo.user.User;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;

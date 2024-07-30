@@ -1,7 +1,6 @@
 package com.example.demo.user;
 
-import com.example.demo.repository.UserAuthRepository;
-import com.example.demo.repository.UserRepository;
+import com.example.demo.auth.UserAuthRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
