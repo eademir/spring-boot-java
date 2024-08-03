@@ -63,6 +63,9 @@ public class SecurityConfig {
                                 .requestMatchers(HttpMethod.DELETE, "/api/v1/**").hasAuthority("ADMIN")
                                 .requestMatchers(HttpMethod.POST, "/api/v1/posts/**").hasAnyAuthority("ADMIN", "USER")
                                 .requestMatchers(HttpMethod.GET, "/api/v1/posts/**").permitAll()
+                                .requestMatchers("/v3/api-docs/**",
+                                        "/swagger-ui/**",
+                                        "/swagger-ui.html").permitAll()
                                 .anyRequest()
                                 .authenticated()
                 ).userDetailsService(userService)
