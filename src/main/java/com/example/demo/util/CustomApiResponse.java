@@ -14,7 +14,7 @@ import org.springframework.http.HttpStatus;
 @NoArgsConstructor
 // Lombok's annotation to generate an all-argument constructor.
 @AllArgsConstructor
-public class ApiResponse {
+public class CustomApiResponse {
     // HTTP status of the response.
     private HttpStatus status;
 

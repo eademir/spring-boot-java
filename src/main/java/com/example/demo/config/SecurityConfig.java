@@ -54,20 +54,20 @@ public class SecurityConfig {
      */
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        return http
+        http
                 .csrf(AbstractHttpConfigurer::disable) // Disable CSRF for postman testing
                 .authorizeHttpRequests(
                         req -> req
+                                .requestMatchers("/api/v1/mq").permitAll()
                                 .requestMatchers(HttpMethod.POST, "/api/v1/auth/register").permitAll()
                                 .requestMatchers(HttpMethod.POST, "/api/v1/auth").permitAll()
+                                .requestMatchers(HttpMethod.GET, "/api/v1/posts/**").permitAll()
                                 .requestMatchers(HttpMethod.DELETE, "/api/v1/**").hasAuthority("ADMIN")
                                 .requestMatchers(HttpMethod.POST, "/api/v1/posts/**").hasAnyAuthority("ADMIN", "USER")
-                                .requestMatchers(HttpMethod.GET, "/api/v1/posts/**").permitAll()
                                 .requestMatchers("/v3/api-docs/**",
                                         "/swagger-ui/**",
                                         "/swagger-ui.html").permitAll()
-                                .anyRequest()
-                                .authenticated()
+                                .anyRequest().authenticated()
                 ).userDetailsService(userService)
                 .sessionManagement(session -> session
                         .sessionCreationPolicy(SessionCreationPolicy.STATELESS))
@@ -81,8 +81,8 @@ public class SecurityConfig {
                         .logoutUrl("/api/v1/logout")
                         .addLogoutHandler(logoutHandler)
                         .logoutSuccessHandler((request, response, authentication) -> SecurityContextHolder.clearContext()
-                        ))
-                .build();
+                        ));
+        return http.build();
     }
 
     /**
