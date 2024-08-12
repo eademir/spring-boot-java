@@ -5,6 +5,12 @@ import com.example.demo.exception.UserAlreadyExistsException;
 import com.example.demo.exception.UserNotFoundException;
 import com.example.demo.jwt.AuthenticationResponse;
 import com.example.demo.user.User;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.ExampleObject;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.HttpStatus;
@@ -31,6 +37,20 @@ public class AuthController {
      * @param response HttpServletResponse to set cookies or headers.
      * @return ResponseEntity with AuthenticationResponse and appropriate HTTP status.
      */
+    @Operation(summary = "Authenticate a user")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "User authenticated successfully"),
+            @ApiResponse(responseCode = "404", description = "User not found", content =
+            @Content(mediaType = "application/json", schema =
+            @Schema(implementation = AuthenticationResponse.class),
+                    examples = @ExampleObject(value = "{\"accessToken\":null,\"refreshToken\":null,\"message\":\"User not found\"}"))
+            ),
+            @ApiResponse(responseCode = "401", description = "Invalid credentials", content =
+            @Content(mediaType = "application/json", schema =
+            @Schema(implementation = AuthenticationResponse.class),
+                    examples = @ExampleObject(value = "{\"accessToken\":null,\"refreshToken\":null,\"message\":\"Invalid credentials\"}"))
+            )
+    })
     @PostMapping
     public ResponseEntity<AuthenticationResponse> login(@RequestBody UserAuth payload, HttpServletResponse response) {
         try {
@@ -49,6 +69,15 @@ public class AuthController {
      * @param user User details for registration.
      * @return ResponseEntity with AuthenticationResponse and appropriate HTTP status.
      */
+    @Operation(summary = "Register a new user")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "201", description = "User registered successfully"),
+            @ApiResponse(responseCode = "409", description = "User already exists", content =
+            @Content(mediaType = "application/json", schema =
+            @Schema(implementation = AuthenticationResponse.class),
+                    examples = @ExampleObject(value = "{\"accessToken\":null,\"refreshToken\":null,\"message\":\"User already exists\"}"))
+            )
+    })
     @PostMapping("/register")
     public ResponseEntity<AuthenticationResponse> register(@RequestBody User user) {
         try {

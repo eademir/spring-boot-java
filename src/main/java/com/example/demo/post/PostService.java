@@ -1,6 +1,6 @@
 package com.example.demo.post;
 
-import com.example.demo.util.ApiResponse;
+import com.example.demo.util.CustomApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -40,12 +40,12 @@ public class PostService {
      * @param id the UUID of the post.
      * @return a response entity containing the result of the delete operation.
      */
-    public ResponseEntity<ApiResponse> deletePost(UUID id) {
+    public ResponseEntity<CustomApiResponse> deletePost(UUID id) {
         if (postRepository.existsById(id)) {
             postRepository.deleteById(id);
-            return ResponseEntity.status(HttpStatus.OK).body(new ApiResponse(HttpStatus.OK, "Post deleted successfully."));
+            return ResponseEntity.status(HttpStatus.OK).body(new CustomApiResponse(HttpStatus.OK, "Post deleted successfully."));
         }
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ApiResponse(HttpStatus.BAD_REQUEST, "Post not found."));
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new CustomApiResponse(HttpStatus.BAD_REQUEST, "Post not found."));
     }
 
     /**
@@ -55,10 +55,10 @@ public class PostService {
      * @param updatedPost the updated post data.
      * @return a response entity containing the result of the update operation.
      */
-    public ResponseEntity<ApiResponse> updatePost(UUID id, Post updatedPost) {
+    public ResponseEntity<CustomApiResponse> updatePost(UUID id, Post updatedPost) {
         Post existingPost = postRepository.findById(id).orElse(null);
         if (existingPost != null) {
-            ResponseEntity<ApiResponse> response = validateUnmodifiableFields(existingPost, updatedPost);
+            ResponseEntity<CustomApiResponse> response = validateUnmodifiableFields(existingPost, updatedPost);
             existingPost.setTitle(updatedPost.getTitle());
             existingPost.setContent(updatedPost.getContent());
             existingPost.setStatus(updatedPost.getStatus());
@@ -68,7 +68,7 @@ public class PostService {
             postRepository.save(existingPost);
             return response;
         }
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ApiResponse(HttpStatus.BAD_REQUEST, "Post not found."));
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new CustomApiResponse(HttpStatus.BAD_REQUEST, "Post not found."));
     }
 
     /**
@@ -78,14 +78,14 @@ public class PostService {
      * @param updatedPost  the updated post data.
      * @return a response entity indicating whether the validation passed or failed.
      */
-    private ResponseEntity<ApiResponse> validateUnmodifiableFields(Post existingPost, Post updatedPost) {
+    private ResponseEntity<CustomApiResponse> validateUnmodifiableFields(Post existingPost, Post updatedPost) {
         if (!existingPost.getLikes().equals(updatedPost.getLikes()) ||
                 !existingPost.getDislikes().equals(updatedPost.getDislikes()) ||
                 !existingPost.getViews().equals(updatedPost.getViews())) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ApiResponse(HttpStatus.BAD_REQUEST, "Cannot" +
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new CustomApiResponse(HttpStatus.BAD_REQUEST, "Cannot" +
                     " update likes, dislikes, or views."));
         }
-        return ResponseEntity.status(HttpStatus.OK).body(new ApiResponse(HttpStatus.OK, "Post updated successfully."));
+        return ResponseEntity.status(HttpStatus.OK).body(new CustomApiResponse(HttpStatus.OK, "Post updated successfully."));
     }
 
     /**
@@ -115,14 +115,14 @@ public class PostService {
      * @param userId the UUID of the user liking the post.
      * @return a response entity containing the result of the like operation.
      */
-    public ResponseEntity<ApiResponse> likePost(UUID id, UUID userId) {
+    public ResponseEntity<CustomApiResponse> likePost(UUID id, UUID userId) {
         Post post = postRepository.findById(id).orElse(null);
         if (post != null && !post.getAuthor().equals(userId)) {
             post.setLikes(post.getLikes() + 1);
             postRepository.save(post);
-            return ResponseEntity.status(HttpStatus.OK).body(new ApiResponse(HttpStatus.OK, "Post liked successfully."));
+            return ResponseEntity.status(HttpStatus.OK).body(new CustomApiResponse(HttpStatus.OK, "Post liked successfully."));
         } else {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ApiResponse(HttpStatus.BAD_REQUEST, "Cannot like your own post or post not found."));
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new CustomApiResponse(HttpStatus.BAD_REQUEST, "Cannot like your own post or post not found."));
         }
     }
 
@@ -133,14 +133,14 @@ public class PostService {
      * @param userId the UUID of the user disliking the post.
      * @return a response entity containing the result of the dislike operation.
      */
-    public ResponseEntity<ApiResponse> dislikePost(UUID id, UUID userId) {
+    public ResponseEntity<CustomApiResponse> dislikePost(UUID id, UUID userId) {
         Post post = postRepository.findById(id).orElse(null);
         if (post != null && !post.getAuthor().equals(userId)) {
             post.setDislikes(post.getDislikes() + 1);
             postRepository.save(post);
-            return ResponseEntity.status(HttpStatus.OK).body(new ApiResponse(HttpStatus.OK, "Post disliked successfully."));
+            return ResponseEntity.status(HttpStatus.OK).body(new CustomApiResponse(HttpStatus.OK, "Post disliked successfully."));
         } else {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ApiResponse(HttpStatus.BAD_REQUEST, "Cannot dislike your own post or post not found."));
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new CustomApiResponse(HttpStatus.BAD_REQUEST, "Cannot dislike your own post or post not found."));
         }
     }
 

@@ -1,18 +1,18 @@
-2024-08-03T17:12:46.068+03:00  INFO 84833 --- [demo1] [main] com.example.demo.Demo1Application        : Starting Demo1Application using Java 22.0.1 with PID 84833 (/Users/Eray/workspaces/java-spring-boot-test1/demo1/target/classes started by Eray in /Users/Eray/workspaces/java-spring-boot-test1/demo1)
-2024-08-03T17:12:46.073+03:00  INFO 84833 --- [demo1] [main] com.example.demo.Demo1Application        : The following 1 profile is active: "dev"
-2024-08-03T17:12:46.422+03:00  INFO 84833 --- [demo1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-03T17:12:46.445+03:00  INFO 84833 --- [demo1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 4 JPA repository interfaces.
-2024-08-03T17:12:46.693+03:00  INFO 84833 --- [demo1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-03T17:12:46.698+03:00  INFO 84833 --- [demo1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-03T17:12:46.699+03:00  INFO 84833 --- [demo1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
-2024-08-03T17:12:46.722+03:00  INFO 84833 --- [demo1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-03T17:12:46.722+03:00  INFO 84833 --- [demo1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 630 ms
-2024-08-03T17:12:46.773+03:00  INFO 84833 --- [demo1] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-03T17:12:46.807+03:00  INFO 84833 --- [demo1] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-08-03T17:12:46.820+03:00  INFO 84833 --- [demo1] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-08-03T17:12:46.938+03:00  INFO 84833 --- [demo1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-03T17:12:46.952+03:00  INFO 84833 --- [demo1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-03T17:12:47.979+03:00  WARN 84833 --- [demo1] [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2024-08-12T17:33:35.879+03:00  INFO 76321 --- [demo1] [main] com.example.demo.Demo1Application        : Starting Demo1Application using Java 22.0.1 with PID 76321 (/Users/Eray/workspaces/java-spring-boot-test1/demo1/target/classes started by Eray in /Users/Eray/workspaces/java-spring-boot-test1/demo1)
+2024-08-12T17:33:35.880+03:00  INFO 76321 --- [demo1] [main] com.example.demo.Demo1Application        : The following 1 profile is active: "dev"
+2024-08-12T17:33:36.354+03:00  INFO 76321 --- [demo1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12T17:33:36.392+03:00  INFO 76321 --- [demo1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 4 JPA repository interfaces.
+2024-08-12T17:33:36.723+03:00  INFO 76321 --- [demo1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-12T17:33:36.728+03:00  INFO 76321 --- [demo1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-12T17:33:36.728+03:00  INFO 76321 --- [demo1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-12T17:33:36.750+03:00  INFO 76321 --- [demo1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-12T17:33:36.750+03:00  INFO 76321 --- [demo1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 850 ms
+2024-08-12T17:33:36.811+03:00  INFO 76321 --- [demo1] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12T17:33:36.836+03:00  INFO 76321 --- [demo1] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12T17:33:36.850+03:00  INFO 76321 --- [demo1] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-12T17:33:36.979+03:00  INFO 76321 --- [demo1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12T17:33:36.991+03:00  INFO 76321 --- [demo1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-12T17:33:38.014+03:00  WARN 76321 --- [demo1] [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
 
 java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
 	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
@@ -136,21 +136,21 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.1.jar:3.3.1]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.1.jar:3.3.1]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.1.jar:3.3.1]
-	at com.example.demo.Demo1Application.main(Demo1Application.java:13) ~[classes/:na]
+	at com.example.demo.Demo1Application.main(Demo1Application.java:15) ~[classes/:na]
 
-2024-08-03T17:12:48.002+03:00  WARN 84833 --- [demo1] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-08-03T17:12:48.445+03:00  INFO 84833 --- [demo1] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-08-03T17:12:48.451+03:00  INFO 84833 --- [demo1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-03T17:12:49.459+03:00  WARN 84833 --- [demo1] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
-2024-08-03T17:12:49.460+03:00 ERROR 84833 --- [demo1] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-2024-08-03T17:12:49.471+03:00 ERROR 84833 --- [demo1] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
-2024-08-03T17:12:49.472+03:00 ERROR 84833 --- [demo1] [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [/Users/Eray/workspaces/java-spring-boot-test1/demo1/target/classes/com/example/demo/filter/JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'jwtService' defined in file [/Users/Eray/workspaces/java-spring-boot-test1/demo1/target/classes/com/example/demo/jwt/JwtService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'tokenRepository' defined in com.example.demo.jwt.TokenRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
-2024-08-03T17:12:49.502+03:00  INFO 84833 --- [demo1] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-08-03T17:12:49.505+03:00  WARN 84833 --- [demo1] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
-2024-08-03T17:12:49.512+03:00  INFO 84833 --- [demo1] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2024-08-12T17:33:38.042+03:00  WARN 76321 --- [demo1] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-12T17:33:38.527+03:00  INFO 76321 --- [demo1] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12T17:33:38.539+03:00  INFO 76321 --- [demo1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-12T17:33:39.545+03:00  WARN 76321 --- [demo1] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
+2024-08-12T17:33:39.546+03:00 ERROR 76321 --- [demo1] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2024-08-12T17:33:39.555+03:00 ERROR 76321 --- [demo1] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+2024-08-12T17:33:39.557+03:00 ERROR 76321 --- [demo1] [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [/Users/Eray/workspaces/java-spring-boot-test1/demo1/target/classes/com/example/demo/filter/JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'jwtService' defined in file [/Users/Eray/workspaces/java-spring-boot-test1/demo1/target/classes/com/example/demo/jwt/JwtService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'tokenRepository' defined in com.example.demo.jwt.TokenRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+2024-08-12T17:33:39.582+03:00  INFO 76321 --- [demo1] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-12T17:33:39.584+03:00  WARN 76321 --- [demo1] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-08-12T17:33:39.590+03:00  INFO 76321 --- [demo1] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-08-03T17:12:49.520+03:00 ERROR 84833 --- [demo1] [main] o.s.boot.SpringApplication               : Application run failed
+2024-08-12T17:33:39.598+03:00 ERROR 76321 --- [demo1] [main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.context.ApplicationContextException: Unable to start web server
 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165) ~[spring-boot-3.3.1.jar:3.3.1]
@@ -161,7 +161,7 @@ org.springframework.context.ApplicationContextException: Unable to start web ser
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.1.jar:3.3.1]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.1.jar:3.3.1]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.1.jar:3.3.1]
-	at com.example.demo.Demo1Application.main(Demo1Application.java:13) ~[classes/:na]
+	at com.example.demo.Demo1Application.main(Demo1Application.java:15) ~[classes/:na]
 Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
 	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147) ~[spring-boot-3.3.1.jar:3.3.1]
 	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.3.1.jar:3.3.1]
@@ -337,25 +337,25 @@ Caused by: java.net.ConnectException: Connection refused
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
 	... 139 common frames omitted
 
-2024-08-03T17:13:07.381+03:00  INFO 84954 --- [demo1] [main] com.example.demo.Demo1Application        : Starting Demo1Application using Java 22.0.1 with PID 84954 (/Users/Eray/workspaces/java-spring-boot-test1/demo1/target/classes started by Eray in /Users/Eray/workspaces/java-spring-boot-test1/demo1)
-2024-08-03T17:13:07.382+03:00  INFO 84954 --- [demo1] [main] com.example.demo.Demo1Application        : The following 1 profile is active: "dev"
-2024-08-03T17:13:07.775+03:00  INFO 84954 --- [demo1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-03T17:13:07.802+03:00  INFO 84954 --- [demo1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
-2024-08-03T17:13:08.043+03:00  INFO 84954 --- [demo1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-03T17:13:08.049+03:00  INFO 84954 --- [demo1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-03T17:13:08.049+03:00  INFO 84954 --- [demo1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
-2024-08-03T17:13:08.071+03:00  INFO 84954 --- [demo1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-03T17:13:08.071+03:00  INFO 84954 --- [demo1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 671 ms
-2024-08-03T17:13:08.124+03:00  INFO 84954 --- [demo1] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-03T17:13:08.150+03:00  INFO 84954 --- [demo1] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-08-03T17:13:08.177+03:00  INFO 84954 --- [demo1] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-08-03T17:13:08.310+03:00  INFO 84954 --- [demo1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-03T17:13:08.325+03:00  INFO 84954 --- [demo1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-03T17:13:08.573+03:00  INFO 84954 --- [demo1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@72f3f14c
-2024-08-03T17:13:08.573+03:00  INFO 84954 --- [demo1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-08-03T17:13:08.619+03:00  WARN 84954 --- [demo1] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-08-03T17:13:09.076+03:00  INFO 84954 --- [demo1] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-08-03T17:13:09.157+03:00  WARN 84954 --- [demo1] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2024-08-12T17:34:07.558+03:00  INFO 76528 --- [demo1] [main] com.example.demo.Demo1Application        : Starting Demo1Application using Java 22.0.1 with PID 76528 (/Users/Eray/workspaces/java-spring-boot-test1/demo1/target/classes started by Eray in /Users/Eray/workspaces/java-spring-boot-test1/demo1)
+2024-08-12T17:34:07.560+03:00  INFO 76528 --- [demo1] [main] com.example.demo.Demo1Application        : The following 1 profile is active: "dev"
+2024-08-12T17:34:07.964+03:00  INFO 76528 --- [demo1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12T17:34:07.995+03:00  INFO 76528 --- [demo1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2024-08-12T17:34:08.240+03:00  INFO 76528 --- [demo1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-12T17:34:08.245+03:00  INFO 76528 --- [demo1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-12T17:34:08.245+03:00  INFO 76528 --- [demo1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-12T17:34:08.267+03:00  INFO 76528 --- [demo1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-12T17:34:08.267+03:00  INFO 76528 --- [demo1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 689 ms
+2024-08-12T17:34:08.322+03:00  INFO 76528 --- [demo1] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12T17:34:08.353+03:00  INFO 76528 --- [demo1] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12T17:34:08.367+03:00  INFO 76528 --- [demo1] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-12T17:34:08.490+03:00  INFO 76528 --- [demo1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12T17:34:08.502+03:00  INFO 76528 --- [demo1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-12T17:34:08.761+03:00  INFO 76528 --- [demo1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@136fece2
+2024-08-12T17:34:08.762+03:00  INFO 76528 --- [demo1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-12T17:34:08.809+03:00  WARN 76528 --- [demo1] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-12T17:34:09.367+03:00  INFO 76528 --- [demo1] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12T17:34:09.451+03:00  WARN 76528 --- [demo1] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table if exists posts 
        alter column status set data type smallint" via JDBC [ERROR: column "status" cannot be cast automatically to type smallint
   Hint: You might need to specify "USING status::smallint".]
@@ -487,7 +487,7 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.1.jar:3.3.1]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.1.jar:3.3.1]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.1.jar:3.3.1]
-	at com.example.demo.Demo1Application.main(Demo1Application.java:13) ~[classes/:na]
+	at com.example.demo.Demo1Application.main(Demo1Application.java:15) ~[classes/:na]
 Caused by: org.postgresql.util.PSQLException: ERROR: column "status" cannot be cast automatically to type smallint
   Hint: You might need to specify "USING status::smallint".
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725) ~[postgresql-42.7.3.jar:42.7.3]
@@ -504,63 +504,67 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "status" cannot be c
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
 	... 123 common frames omitted
 
-2024-08-03T17:13:09.184+03:00  INFO 84954 --- [demo1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-03T17:13:09.271+03:00  INFO 84954 --- [demo1] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-08-03T17:13:09.592+03:00  INFO 84954 --- [demo1] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userService
-2024-08-03T17:13:09.677+03:00  WARN 84954 --- [demo1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-03T17:13:09.789+03:00 DEBUG 84954 --- [demo1] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-2024-08-03T17:13:09.898+03:00  INFO 84954 --- [demo1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-08-03T17:13:09.903+03:00  INFO 84954 --- [demo1] [main] com.example.demo.Demo1Application        : Started Demo1Application in 2.783 seconds (process running for 3.015)
-2024-08-03T17:13:09.904+03:00  INFO 84954 --- [demo1] [main] com.example.demo.Demo1Application        : Application started successfully!
-2024-08-03T17:13:44.191+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-03T17:13:44.192+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-03T17:13:44.195+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2024-08-03T17:13:44.206+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /v3/api-docs
-2024-08-03T17:13:44.210+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2024-08-03T17:13:44.211+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /v3/api-docs
-2024-08-03T17:13:44.504+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 262 ms
-2024-08-03T17:13:44.524+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-1] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /v3/api-docs Method: GET Response: 200
-2024-08-03T17:13:44.620+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /favicon.ico
-2024-08-03T17:13:44.620+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2024-08-03T17:19:01.803+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.html
-2024-08-03T17:19:01.805+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2024-08-03T17:19:01.805+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.html
-2024-08-03T17:19:01.830+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-4] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/index.html Method: GET Response: 200
-2024-08-03T17:19:01.862+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui.css
-2024-08-03T17:19:01.863+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2024-08-03T17:19:01.863+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui.css
-2024-08-03T17:19:01.865+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-5] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/swagger-ui.css Method: GET Response: 200
-2024-08-03T17:19:01.867+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-bundle.js
-2024-08-03T17:19:01.867+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2024-08-03T17:19:01.867+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-bundle.js
-2024-08-03T17:19:01.873+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-6] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/swagger-ui-bundle.js Method: GET Response: 200
-2024-08-03T17:19:01.920+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.css
-2024-08-03T17:19:01.920+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2024-08-03T17:19:01.920+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.css
-2024-08-03T17:19:01.922+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-7] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/index.css Method: GET Response: 200
-2024-08-03T17:19:01.922+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-standalone-preset.js
-2024-08-03T17:19:01.922+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2024-08-03T17:19:01.922+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-standalone-preset.js
-2024-08-03T17:19:01.924+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-initializer.js
-2024-08-03T17:19:01.924+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-8] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/swagger-ui-standalone-preset.js Method: GET Response: 200
-2024-08-03T17:19:01.924+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2024-08-03T17:19:01.924+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-initializer.js
-2024-08-03T17:19:01.931+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-9] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/swagger-initializer.js Method: GET Response: 200
-2024-08-03T17:19:02.017+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /v3/api-docs/swagger-config
-2024-08-03T17:19:02.018+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2024-08-03T17:19:02.018+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /v3/api-docs/swagger-config
-2024-08-03T17:19:02.024+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/favicon-32x32.png
-2024-08-03T17:19:02.024+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2024-08-03T17:19:02.024+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/favicon-32x32.png
-2024-08-03T17:19:02.025+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-1] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/favicon-32x32.png Method: GET Response: 200
-2024-08-03T17:19:02.027+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/favicon-16x16.png
-2024-08-03T17:19:02.027+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2024-08-03T17:19:02.027+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-10] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /v3/api-docs/swagger-config Method: GET Response: 200
-2024-08-03T17:19:02.027+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/favicon-16x16.png
-2024-08-03T17:19:02.028+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-2] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/favicon-16x16.png Method: GET Response: 200
-2024-08-03T17:19:02.037+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /v3/api-docs
-2024-08-03T17:19:02.037+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2024-08-03T17:19:02.038+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /v3/api-docs
-2024-08-03T17:19:02.045+03:00  INFO 84954 --- [demo1] [http-nio-8080-exec-3] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /v3/api-docs Method: GET Response: 200
-2024-08-03T17:21:01.884+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /h2-console
-2024-08-03T17:21:01.886+03:00 DEBUG 84954 --- [demo1] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-08-12T17:34:09.484+03:00  INFO 76528 --- [demo1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12T17:34:09.578+03:00  INFO 76528 --- [demo1] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-12T17:34:09.965+03:00  INFO 76528 --- [demo1] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userService
+2024-08-12T17:34:10.036+03:00  WARN 76528 --- [demo1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-12T17:34:10.152+03:00 DEBUG 76528 --- [demo1] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-12T17:34:10.335+03:00  INFO 76528 --- [demo1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-12T17:34:10.341+03:00  INFO 76528 --- [demo1] [main] com.example.demo.Demo1Application        : Started Demo1Application in 3.026 seconds (process running for 3.268)
+2024-08-12T17:34:11.382+03:00  INFO 76528 --- [demo1] [main] com.example.demo.Demo1Application        : Application started successfully!
+2024-08-12T17:34:24.985+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-12T17:34:24.985+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-12T17:34:24.986+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-12T17:34:24.997+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/mq
+2024-08-12T17:34:25.001+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-08-12T17:34:25.002+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/mq
+2024-08-12T17:34:25.066+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-1] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /api/v1/mq Method: POST Response: 200
+2024-08-12T17:34:33.864+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/mq
+2024-08-12T17:34:33.866+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-08-12T17:34:33.867+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/mq
+2024-08-12T17:34:33.886+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-3] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /api/v1/mq Method: POST Response: 200
+2024-08-12T18:06:59.945+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui.html
+2024-08-12T18:06:59.946+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-08-12T18:06:59.947+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui.html
+2024-08-12T18:06:59.974+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-5] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui.html Method: GET Response: 302
+2024-08-12T18:06:59.990+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.html
+2024-08-12T18:06:59.990+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-08-12T18:06:59.990+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.html
+2024-08-12T18:06:59.995+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-6] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/index.html Method: GET Response: 200
+2024-08-12T18:07:00.054+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui.css
+2024-08-12T18:07:00.054+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-08-12T18:07:00.054+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui.css
+2024-08-12T18:07:00.056+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-7] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/swagger-ui.css Method: GET Response: 200
+2024-08-12T18:07:00.060+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-bundle.js
+2024-08-12T18:07:00.060+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-08-12T18:07:00.060+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-bundle.js
+2024-08-12T18:07:00.066+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-8] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/swagger-ui-bundle.js Method: GET Response: 200
+2024-08-12T18:07:00.112+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.css
+2024-08-12T18:07:00.113+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-08-12T18:07:00.113+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.css
+2024-08-12T18:07:00.114+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-9] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/index.css Method: GET Response: 200
+2024-08-12T18:07:00.115+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-08-12T18:07:00.115+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-08-12T18:07:00.115+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-08-12T18:07:00.117+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-initializer.js
+2024-08-12T18:07:00.117+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-08-12T18:07:00.117+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-initializer.js
+2024-08-12T18:07:00.118+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-10] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/swagger-ui-standalone-preset.js Method: GET Response: 200
+2024-08-12T18:07:00.128+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-2] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/swagger-initializer.js Method: GET Response: 200
+2024-08-12T18:07:00.228+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /v3/api-docs/swagger-config
+2024-08-12T18:07:00.228+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-08-12T18:07:00.228+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /v3/api-docs/swagger-config
+2024-08-12T18:07:00.233+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/favicon-32x32.png
+2024-08-12T18:07:00.233+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-1] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /v3/api-docs/swagger-config Method: GET Response: 200
+2024-08-12T18:07:00.233+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-08-12T18:07:00.233+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/favicon-32x32.png
+2024-08-12T18:07:00.235+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-3] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/favicon-32x32.png Method: GET Response: 200
+2024-08-12T18:07:00.238+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/favicon-16x16.png
+2024-08-12T18:07:00.238+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-08-12T18:07:00.238+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/favicon-16x16.png
+2024-08-12T18:07:00.240+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-4] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /swagger-ui/favicon-16x16.png Method: GET Response: 200
+2024-08-12T18:07:00.251+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /v3/api-docs
+2024-08-12T18:07:00.252+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-08-12T18:07:00.252+03:00 DEBUG 76528 --- [demo1] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /v3/api-docs
+2024-08-12T18:07:00.540+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 275 ms
+2024-08-12T18:07:00.551+03:00  INFO 76528 --- [demo1] [http-nio-8080-exec-5] c.e.d.c.RequestResponseLoggingFilter     : Request URL: /v3/api-docs Method: GET Response: 200

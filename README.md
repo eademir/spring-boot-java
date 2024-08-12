@@ -14,6 +14,7 @@ This is a Spring Boot application that demonstrates the use of various Spring mo
 - PostgreSQL
 - Springdoc OpenAPI
 - Swagger UI
+- RabbitMQ
 
 ## Installation
 
